@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Bolis del Campus</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>Los Bolis del Campus</h1>
+        <div class="cart-summary" id="cart-summary">
+            🛒 <span id="cart-item-count">0</span>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="catalog" id="catalog-container"></section>
+    </main>
+    
+    <section class="qr-section">
+        <h2 class="qr-heading">¡Escanea para ordenar!</h2>
+        <p class="qr-text">Puedes ordenar directamente aquí o escanear este código con tu celular.</p>
+        <div class="qr-container">
+            <!-- Coloca el archivo qrcode.png en la misma carpeta que este archivo -->
+            <img src="qrcode.png" alt="Código QR para ordenar" class="qr-code">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Bolis del Campus. Todos los derechos reservados.</p>
+    </footer>
+
+    <div class="cart-modal" id="cart-modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Tu Pedido</h2>
+            <div id="cart-items"></div>
+            <div class="cart-total-container">
+                <span class="cart-total">Total: <span id="cart-total">0</span> MXN</span>
+            </div>
+            <button id="checkout-button">Reservar por WhatsApp</button>
+        </div>
+    </div>
+</body>
+</html>
