@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeModalButton = document.querySelector('.close-button');
     const checkoutButton = document.getElementById('checkout-button');
 
-    const whatsappNumber = "525512345678"; // Reemplaza con tu número de WhatsApp
+    const whatsappNumber = "529931701376"; // Reemplaza con tu número de WhatsApp
 
     let cart = [];
     let products = [];
