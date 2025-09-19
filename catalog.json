@@ -3,14 +3,14 @@
 "id": 1,
 "name": "Bolis de Oreo",
 "price": 15,
-"image": "https://www.google.com/search?q=https://placehold.co/400x400/262626/white%3Ftext%3DOreo",
+"image": "images/oreo.jpeg",
 "description": "Una explosión de sabor a galleta, cremoso y con trozos de Oreo."
 },
 {
 "id": 2,
 "name": "Bolis de Café",
 "price": 15,
-"image": "https://www.google.com/search?q=https://placehold.co/400x400/262626/white%3Ftext%3DCafe",
+"image": "images/cafe.png",
 "description": "El sabor del café recién hecho, suave y perfecto para un toque de energía."
 }
 ]
