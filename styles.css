@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
+    overflow-x: hidden; /* Evita el scroll horizontal */
 }
 
 .header {
@@ -219,40 +220,6 @@ h1 {
 
 #checkout-button:hover {
     background-color: #128c7e;
-}
-
-.qr-section {
-    width: 100%;
-    max-width: 600px;
-    padding: 2rem 1rem;
-    text-align: center;
-}
-
-.qr-heading {
-    font-size: 1.5rem;
-    color: var(--highlight-color);
-    margin-bottom: 0.5rem;
-}
-
-.qr-text {
-    font-size: 0.9rem;
-    color: #999;
-}
-
-.qr-container {
-    padding: 1rem;
-    background-color: var(--card-bg);
-    border-radius: 1rem;
-    box-shadow: 0 4px 8px var(--shadow-color);
-    margin-top: 1rem;
-}
-
-.qr-code {
-    width: 100%;
-    max-width: 256px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
 }
 
 .footer {

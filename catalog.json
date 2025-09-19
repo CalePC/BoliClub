@@ -2,15 +2,17 @@
 {
 "id": 1,
 "name": "Bolis de Oreo",
-"price": 15,
+"price":20,
 "image": "images/oreo.jpeg",
-"description": "Una explosión de sabor a galleta, cremoso y con trozos de Oreo."
+"description": "Una explosión de sabor a galleta oreo, cremoso y con trozos de Oreo.",
+"extra":"Adicional: Leche deslactosada"
 },
 {
 "id": 2,
 "name": "Bolis de Café",
-"price": 15,
+"price": 20,
 "image": "images/cafe.png",
-"description": "El sabor del café recién hecho, suave y perfecto para un toque de energía."
+"description": "El rico sabor del café los portales con trozos de galleta oreo, perfecto para un toque de energía.",
+"extra":"Adicional: Leche deslactosada"
 }
 ]
